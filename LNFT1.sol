@@ -13,28 +13,6 @@ contract LNFT1 is ERC1155, AccessControl, ERC1155Burnable, IChildToken, ContextM
  
     mapping(uint256 => string) private _tokenUris;
 
-    // 0x0000000000000000000000000000000000000000
-    //ETH
-    // Mainnet MINTER_ROLE 0x2d641867411650cd05dB93B59964536b1ED5b1B7
-    // Goerli  MINTER_ROLE 0x72d6066F486bd0052eefB9114B66ae40e0A6031a
-
-    // Polygon
-    // Mumbai DEPOSITOR_ROLE 0xb5505a6d998549090530911180f38aC5130101c6
-    //constructor(address polygonChainManager, address mainMinter) 
-    //    ERC1155("Uri is per Id -> use methode uri(id)") 
-    //{
-        //_grantRole(DEFAULT_ADMIN_ROLE, _msgSender());
-        //_grantRole(URI_SETTER_ROLE, _msgSender());
-        //_grantRole(MINTER_ROLE, _msgSender());
-
-        //if (mainMinter != address(0)){
-        //    _grantRole(MINTER_ROLE, mainMinter);
-        //}
-        //if (polygonChainManager != address(0)){
-        //    _grantRole(DEPOSITOR_ROLE, polygonChainManager);
-        //}
-    //}
-
     constructor() 
         ERC1155("Uri is per Id -> use methode uri(id)") 
     {
