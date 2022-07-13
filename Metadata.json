@@ -1,0 +1,18 @@
+{
+    "title": "Playground Labs Twitter Forum Pass",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Playground Labs Twitter Forum Pass"
+        },
+        "description": {
+            "type": "string",
+            "description": "This is a Playground Labs Twitter Forum Pass! Each NFT Will Allow You To Tweet On Our Community Twitter!"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://drive.google.com/drive/u/3/folders/1-e4iAwnF0pUaUUy7pwEFnKwOhBJ5aKZj"
+        }
+    }
+}
